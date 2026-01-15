@@ -95,4 +95,22 @@
                 navMenu.classList.toggle("active");
             });
 
-    
+// EmailJS Integration for Contact Form
+
+//   emailjs.init("dsMkr4-u2pkxBSsVE");
+//             document.getElementById('contactForm').addEventListener('submit', function (e) {
+//                 e.preventDefault(); // prevent default form submit
+
+//                 const btn = this.querySelector('.btn');
+//                 btn.textContent = "Sending...";
+
+//                 emailjs.sendForm('service_axsiu9q', 'template_8cdx1kb', this)
+//                     .then(() => {
+//                         alert('Message sent successfully! ✅');
+//                         btn.textContent = "SUBMIT";
+//                         this.reset();
+//                     }, (error) => {
+//                         alert('Failed to send message 😢: ' + JSON.stringify(error));
+//                         btn.textContent = "SUBMIT";
+//                     });
+//             });

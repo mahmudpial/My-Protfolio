@@ -18,8 +18,8 @@
         <!-- nav section -->
         <div class="nav">
             <div class="logo">
-                <a href="#hero"><img src="assets/images/pialnewphoto.png" alt="Pial Mahmud"></a>
-                <a href="#hero"><span>Pial Mahmud</span></a>
+                <a href="#index.html"><img src="assets/images/pialnewphoto.png" alt="Pial Mahmud"></a>
+                <a href="#index.html"><span>Pial Mahmud</span></a>
 
             </div>
             <div class="menu-toggle" id="menuToggle">
@@ -28,7 +28,7 @@
 
 
             <ul id="navMenu">
-                <li><a href="#hero">Home</a></li>
+                <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -133,18 +133,18 @@
                 <span class="contact-line"></span>
                 <p>Feel free to contact me by submitting the form below.</p>
             </div>
-            <form class="contact-form">
+            <form class="contact-form" id="contactForm">
                 <div class="form-group">
                     <label>Name</label>
-                    <input type="text" placeholder="Enter Your Name" required>
+                    <input name="user_name" type="text" placeholder="Enter Your Name" required>
                 </div>
                 <div class="form-group">
                     <label>Email</label>
-                    <input type="email" placeholder="Enter Your Email" required>
+                    <input name="email" type="email" placeholder="Enter Your Email"  required>
                 </div>
                 <div class="form-group">
                     <label>Message</label>
-                    <textarea rows="6" placeholder="Enter Your Message" required></textarea>
+                    <textarea name="message" rows="6" placeholder="Enter Your Message" required></textarea>
                 </div>
                 <button type="submit" class="btn">SUBMIT</button>
             </form>
@@ -201,6 +201,13 @@
 
   <!-- js file added here -->
     <script src="app/script.js"></script>
+
+    <!-- //-- EmailJS SDK --> 
+
+    <!-- <script src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script> -->
+
+    
+    
 </body>
 
 </html>
